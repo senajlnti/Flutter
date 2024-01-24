@@ -57,6 +57,21 @@ class BelajarContainer extends StatelessWidget {
       margin: EdgeInsets.all(10),
       padding: EdgeInsets.all(10),
       decoration: BoxDecoration(
+        // image: DecorationImage(
+        //   image:
+        //   NetworkImage("https://th.bing.com/th/id/OIP.ZHEaEn6yqgb76ySxdb3S6gHaE-?rs=1&pid=ImgDetMain"),
+        //   fit: BoxFit.fill),
+        gradient: LinearGradient(
+          colors: [Color.fromARGB(255, 24, 255, 24), Color.fromARGB(255, 25, 245, 18)],
+        ),
+        borderRadius: BorderRadius.circular(10),
+      ),
+      child: Container(
+         width: double.infinity,
+      height: double.infinity,
+      margin: EdgeInsets.all(10),
+      padding: EdgeInsets.all(10),
+      decoration: BoxDecoration(
         image: DecorationImage(
           image:
           NetworkImage("https://th.bing.com/th/id/OIP.ZHEaEn6yqgb76ySxdb3S6gHaE-?rs=1&pid=ImgDetMain"),
@@ -66,6 +81,7 @@ class BelajarContainer extends StatelessWidget {
         ),
         borderRadius: BorderRadius.circular(10),
       ),
+      )
       )
       )
       )
